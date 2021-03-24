@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>CONTACT</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link rel="stylesheet" href="Style1.css" >
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="form.js"></script>
+    </head>
+    <body >
+
+
+
+
+
+        <!-- menu on small screens -->
+<div class="navbar" id="myNavBar">
+    <a href="file:///C:/Users/Teodora/Desktop/Introduction%20in%20Chess/Chess.html#" class="principal"> Home</a>
+    <a href="file:///C:/Users/Teodora/Desktop/Introduction%20in%20Chess/Players.html"> Players</a>
+    <a href="file:///C:/Users/Teodora/Desktop/Introduction%20in%20Chess/Basics.html"> Basics</a>
+    <a href="file:///C:/Users/Teodora/Desktop/Introduction%20in%20Chess/Openings.html"> Openings</a>
+    <a href="file:///C:/Users/Teodora/Desktop/Introduction%20in%20Chess/Contact.html"> Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+                    <script>
+                        function myFunction() {
+                        var x = document.getElementById("myNavBar");
+                         if (x.className === "navbar") {
+                         x.className += " responsive";
+                         } else {
+                         x.className = "navbar";
+                         }
+                        }
+                    </script>
+
+        <div class="container">
+            <div id="form-main">
+                <div id="form-div">
+                    <form class="montform" id="reused_form" >
+                        <p class="name">
+                            <input name="name" type="text" class="feedback-input" required placeholder="Name" id="name" />
+                        </p>
+                        <p class="email">
+                            <input name="email" type="email" required class="feedback-input" id="email" placeholder="Email" />
+                        </p>
+                        <p class="text">
+                            <textarea name="message" class="feedback-input" id="comment" placeholder="Message"></textarea>
+                        </p>
+                        <div class="submit">
+                            <button type="submit" class="button-blue">SUBMIT</button>
+                            <div class="ease"></div>
+                        </div>
+
+                        <!--<div class="back home">
+                            <button onclick="goBack()"><a href="file:///C:/Users/Teodora/Desktop/Introduction%20in%20Chess/Chess.html#">Go HOME</a></button>
+                            <div class="ease"></div>
+                        </div>-->
+
+
+                       <!-- <button class="btn back"><a href="file:///C:/Users/Teodora/Desktop/Introduction%20in%20Chess/Chess.html#">GO BACK</a></button> -->
+
+
+                       <!-- <script>
+                            function goBack() {
+                              window.history.back();
+                            }
+                            </script> -->
+                    </form>
+                    <!--<div id="error_message" style="width:100%; height:100%; display:none; ">
+                        <h4>
+                            Error
+                        </h4>
+                        Sorry there was an error sending your form. 
+                    </div>
+                    <div id="success_message" style="width:100%; height:100%; display:none; "> <h2>Success! Your Message was Sent Successfully.</h2> </div>-->
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer-Bottom-->
+  <div class="footer-bottom">
+    &copy;2021 Don't wait for change. Choose it! | Designed by Teodora Preoteasa
+  </div>
+
+    </body>
+</html>
